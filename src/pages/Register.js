@@ -26,7 +26,7 @@ const Register = () => {
       console.log(res.data);
       setTimeout(() => {
         navigate('/login');
-      }, 1500);
+      }, 500);
     } catch (err) {
       setError(err.res.message);
     }

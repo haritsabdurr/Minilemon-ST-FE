@@ -23,6 +23,7 @@ const Login = () => {
       }, 1500);
     } catch (err) {
       console.log(err);
+      alert('data tidak sesuai!');
     }
   };
 
